@@ -5,19 +5,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Main_tab">
-
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/separator_color"
+            app:tabTextColor="@color/white"
             app:tabMode="fixed"
             tools:ignore="MissingConstraints" />
 
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/viewpager"
+            android:background="@color/blue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@+id/tabs"/>
+            app:layout_constraintTop_toBottomOf="@+id/tabs" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

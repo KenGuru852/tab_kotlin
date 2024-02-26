@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Pritula_Shebanov</string>
+    <style name="TableRowDividerStyle">
+        <item name="android:background">@drawable/table_row_divider</item>
+    </style>
 </resources>
